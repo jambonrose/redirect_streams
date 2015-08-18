@@ -1,2 +1,3 @@
 test:
-	py.test tests
+	py.test -v -m tryfirst --maxfail=1
+	py.test -v -m "not tryfirst"
