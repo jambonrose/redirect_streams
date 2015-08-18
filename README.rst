@@ -9,7 +9,7 @@ This project provides Python context managers to help redirect multiple
 forms of output into a buffer (capturing the output).
 
 The `Basic Usage`_ section below provides a brief overview of the
-problem these context managers solve. The full documentation describes
+problem these context managers solve. The full `documentation`_ describes
 the problem in more detail, and descibes how the context managers
 provided in the package solve the problem.
 
@@ -68,3 +68,7 @@ level.
         buffer.seek(SEEK_SET)
         saved = buffer.read()
     print(saved)
+
+For more information please refer to the `documentation`_.
+
+.. _`documentation`: https://redirect-streams.readthedocs.org/
