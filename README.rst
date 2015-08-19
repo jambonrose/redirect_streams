@@ -20,7 +20,7 @@ The project may be installed via pip:
 
 .. code:: console
 
-    $ pip install redirect_streams
+    $ pip install redirect-streams
 
 To install the development version:
 
