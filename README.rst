@@ -3,6 +3,9 @@
 .. image:: https://img.shields.io/pypi/pyversions/redirect-streams.svg
     :target: https://pypi.python.org/pypi/redirect-streams
 
+.. image:: https://readthedocs.org/projects/redirect-streams/badge/?version=latest
+    :target: http://redirect-streams.readthedocs.org/
+
 ====================
  Redirect Streams
 ====================
