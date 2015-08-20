@@ -62,5 +62,5 @@ def get_git_changeset():
 
 # PEP 440 Compliant Semantic Versioning
 # major, minor, micro, label/type, label/type number
-VERSION = (0, 0, 1, DEV, 0)
+VERSION = (0, 1, 0, FINAL, 0)
 __version__ = get_version(VERSION)
