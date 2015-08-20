@@ -23,5 +23,5 @@ release:
 	twine upload dist/*
 
 test:
-	py.test -v -m tryfirst --maxfail=1
-	py.test -v -m "not tryfirst"
+	py.test -v -m tryfirst --maxfail=1 tests
+	py.test -v -m "not tryfirst" tests
