@@ -8,6 +8,7 @@ Redirect Streams Setuptools Module
 :copyright: Copyright 2015 Andrew Pinkham
 :license: Simplified BSD, see LICENSE for details.
 """
+from __future__ import unicode_literals
 
 from setuptools import setup, find_packages
 from codecs import open
@@ -27,7 +28,7 @@ setup(
     name='redirect-streams',
     version=version['__version__'],
 
-    keywords='stream stdout stderr with context managers',
+    keywords=['stream', 'stdout', 'stderr', 'with', 'context managers'],
     description='Easy stream redirection in Python.',
     long_description=long_description,
 
