@@ -1,3 +1,8 @@
+.. image:: http://img.shields.io/pypi/v/redirect-streams.svg
+    :target: https://pypi.python.org/pypi/redirect-streams
+.. image:: https://img.shields.io/pypi/pyversions/redirect-streams.svg
+    :target: https://pypi.python.org/pypi/redirect-streams
+
 ====================
  Redirect Streams
 ====================
