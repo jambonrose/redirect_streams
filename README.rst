@@ -68,7 +68,7 @@ level.
 
     with TextIOWrapper(BytesIO(), stdout.encoding) as buffer:
         with redirect_stdout(buffer):
-            # this will not work with the code from stdlib
+            # code below won't work with stdlib's redirect_stdout
             system('this will be saved in the buffer')
         buffer.seek(SEEK_SET)
         saved = buffer.read()

@@ -1,17 +1,5 @@
-`Package Documentation`_
-
-Description
------------
-
-This project provides Python context managers to help redirect multiple
-forms of output into a buffer (capturing the output).
-
-Installation
-------------
-
-.. code:: console
-
-    $ pip install redirect-streams
+Usage
+=====
 
 Basic Usage
 -----------
@@ -34,9 +22,3 @@ The most common use of this project is to redirect ``stdout``.
         buffer.seek(SEEK_SET)
         saved = buffer.read()
     print(saved)
-
-For other context managers and more detailed information, please refer
-to the `documentation`_.
-
-.. _`documentation`: https://redirect-streams.readthedocs.org/
-.. _`Package Documentation`: `documentation`_
